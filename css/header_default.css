@@ -1,0 +1,61 @@
+.line {
+  background: #441f0a;
+  height: 3px;
+  width: 100%;
+}
+.body-pic-profile {
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+#profile_img{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+.icon-logout{
+  justify-items: right;
+  padding-right: 20px;
+}
+.username-nav{
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 5px;
+  color: rgb(243, 243, 243);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logout-user-group{
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 5px;
+  justify-content: space-between;
+  border: solid 2px #127281;;
+  display: flex;
+
+}
+
+
+ @media screen and (max-width: 990px) {
+  .logout-user-group{
+    justify-content: unset;
+   
+  }
+  .icon-logout i {
+    font-size: 20px;
+  }
+  .logout-user-group{
+    border: 0;
+    padding-left: 0;
+  }
+} 
+
+.bg-info{
+  box-shadow: 2px 2px 50px #888888;
+}

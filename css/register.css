@@ -1,0 +1,222 @@
+.container_over {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 15px auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 50px;
+  }
+  .submit_dis {
+    margin: 0;
+    padding: 10px;
+    background-color: #a0a0a0;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .body_image {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .show_image {
+    width: 200px;
+    height: 200px;
+    background-color: #ababab;
+    border-radius: 50%;
+    margin: 10px auto;
+    padding: 5px;
+    object-fit: cover;
+  }
+  .custom_upload {
+    padding: 10px;
+    background-color: #464646;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 50%;
+    position: absolute;
+    margin: 160px 0 0 150px;
+  }
+  
+.head_register{
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 15px auto;
+    font-size: x-large;
+}
+.input_title{
+    width: 100%;
+    height: auto;
+}
+.input_register {
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin: 8px auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 10px;
+    outline: none;
+    outline-width: 0;
+  }
+
+  .input_register_small {
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin: 8px auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    outline: none;
+    outline-width: 0;
+  }
+  .register_title {
+    font-size: 25px;
+      font-weight: 500;
+      margin: 10px 0;
+      display: grid;
+  }
+  .line {
+    width: 95%;
+    height: 1px;
+    background-color: #c7c7c74f;
+    margin: 0px 2.5%;
+    border-radius: 25%;
+  }
+
+  .body_register {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0px 20px 5px 20px;
+    font-size: 12px;
+    font-variant-caps: all-petite-caps;
+  }
+  .submit {
+    margin: 0;
+    padding: 10px;
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .register_success {
+    position: fixed;
+    background-color: #0000008c;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    /* visibility: visible; */
+    opacity: 0;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: hidden;
+  }
+  .register_body {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 15px;
+  }
+  .register_message {
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  .suc_body {
+    width: 85%;
+    margin: 20px auto;
+  }
+  .shortPass {
+    
+    font-size: 14px;
+    color: red;
+  }
+  .notMatch{
+
+    font-size: 14px;
+    color: red;
+  }
+  .notEmail{
+    position: relative;
+    float: right;
+    font-size: 14px;
+    color: red;
+  }
+  .notTel{
+    position: relative;
+    float: right;
+    font-size: 14px;
+    color: red;
+  }
+
+  /* ---- new ------- */
+  /* .input_fname_title{
+    font-size: 12px;
+    margin: auto;
+    
+  }
+  .input_lname_title{
+    font-size: 12px;
+    
+  } */
+  .detail_title{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .col-sm-6{
+    display: grid;
+
+  }
+  .col-sm-6.box_pass{
+   padding-right: 3px;
+  }
+  .col-sm-6.box_conpass{
+   padding-left: 3px;
+  }
+
+  .col-sm-6.box_fname{
+    padding-right: 3px;
+  }
+
+  .col-sm-6.box_lname{
+    padding-left: 3px;
+  }
+  .col-sm-6.box_mail{
+    padding-right: 3px;
+  }
+  .col-sm-6.box_phone{
+    padding-left: 3px;
+  }

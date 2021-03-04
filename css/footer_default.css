@@ -1,0 +1,19 @@
+.container-footer {
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer {
+  position: fixed;
+  height: 80;
+  bottom: 0;
+  width: 100%;
+}
+.footerarea{
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

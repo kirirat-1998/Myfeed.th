@@ -1,0 +1,36 @@
+.wrapper-box {
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.body_list {
+  margin: auto;
+  max-width: 800px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.img_profile_list_friend {
+  border-radius: 10%;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  width: 40px;
+  height: auto;
+}
+
+.name_fl {
+  margin: auto;
+  font-size: 20px;
+  border-left: #c7c7c74f 1px solid;
+}
+.box_button {
+  margin: auto;
+  text-align: end;
+}
+.img_pro {
+  margin: auto;
+}
